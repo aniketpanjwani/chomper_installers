@@ -1,0 +1,2 @@
+* Chomper Installer
+This is a collection of automated installation shell scripts for Chomper.
