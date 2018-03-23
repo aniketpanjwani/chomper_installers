@@ -33,6 +33,7 @@ cd chomper;
 if [ ":$PATH:" != *":/home/$USER/chomper/bin"* ]
 then
   echo 'export PATH=$PATH:/home/$USER/chomper/bin' >> ~/.bashrc
+  echo 'export PATH=$PATH:/home/$USER/chomper/bin' >> ~/.bash_profile
   echo -e "\nAdded Chomper to PATH.\n"
 else
   echo -e "\nChomper is already on PATH.\n"
